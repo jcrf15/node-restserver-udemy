@@ -16,7 +16,7 @@
         "mongoose": "^5.10.5",
         "underscore": "^1.11.0"
     },
-    "devDependencies": {
-        "node": "^14.11.0"
+    "engines": {
+        "node": "14.9.0"
     }
 }
