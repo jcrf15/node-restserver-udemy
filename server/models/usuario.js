@@ -47,7 +47,7 @@ let usuarioSchema = new Schema({
 
 
 });
-
+//exclusion de la contrasenia del modelo
 usuarioSchema.methods.toJSON = function() {
     let user = this;
     let userObject = user.toObject();
